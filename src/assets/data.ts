@@ -1,6 +1,6 @@
 export const CONTACT = {
-  phone: '+996 (312) 00-00-00',
-  phoneHref: 'tel:+996312000000',
+  phone: '+7 777 306 32 39',
+  phoneHref: 'tel:+77773063239',
   email: 'info@suprize.net',
   emailHref: 'mailto:info@suprize.net',
 } as const

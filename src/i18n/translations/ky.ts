@@ -96,7 +96,7 @@ export const ky: Translations = {
     email: 'Email',
     address: 'Дарек',
     hours: 'Иш убактысы',
-    addressValue: 'Бишкек ш., Ибраимов коч., 115',
+    addressValue: 'Бишкек ш., Суеркулов коч., 28/2',
     hoursValue: 'Дш–Жм: 9:00–18:00',
     mapPlaceholder: 'Бул жерде карта болот',
     form: {
@@ -105,7 +105,7 @@ export const ky: Translations = {
       email: 'Email',
       message: 'Билдирүү',
       namePlaceholder: 'Атыңыз',
-      phonePlaceholder: '+996 ...',
+      phonePlaceholder: '+7 ...',
       emailPlaceholder: 'email@suprize.net',
       messagePlaceholder: 'Долбооруңузду сүрөттөңүз же суроо бериңиз',
     },

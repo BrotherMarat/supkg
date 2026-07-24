@@ -96,7 +96,7 @@ export const en: Translations = {
     email: 'Email',
     address: 'Address',
     hours: 'Business hours',
-    addressValue: '115 Ibraimov St, Bishkek',
+    addressValue: '28/2 Suerkulova St, Bishkek',
     hoursValue: 'Mon–Fri: 9:00–18:00',
     mapPlaceholder: 'Map will be here',
     form: {
@@ -105,7 +105,7 @@ export const en: Translations = {
       email: 'Email',
       message: 'Message',
       namePlaceholder: 'Your name',
-      phonePlaceholder: '+996 ...',
+      phonePlaceholder: '+7 ...',
       emailPlaceholder: 'email@suprize.net',
       messagePlaceholder: 'Describe your project or ask a question',
     },

@@ -96,7 +96,7 @@ export const ru: Translations = {
     email: 'Email',
     address: 'Адрес',
     hours: 'Режим работы',
-    addressValue: 'г. Бишкек, ул. Ибраимова, 115',
+    addressValue: 'г. Бишкек, ул. Суеркулова 28/2',
     hoursValue: 'Пн–Пт: 9:00–18:00',
     mapPlaceholder: 'Здесь будет карта',
     form: {
@@ -105,7 +105,7 @@ export const ru: Translations = {
       email: 'Email',
       message: 'Сообщение',
       namePlaceholder: 'Ваше имя',
-      phonePlaceholder: '+996 ...',
+      phonePlaceholder: '+7 ...',
       emailPlaceholder: 'email@suprize.net',
       messagePlaceholder: 'Опишите ваш проект или задайте вопрос',
     },
