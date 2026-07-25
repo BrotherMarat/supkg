@@ -20,15 +20,15 @@ export const en: Translations = {
   },
   footer: {
     description:
-      'suprize.net — premium plumbing supplies from leading global manufacturers across the Kyrgyz Republic.',
+      'suprize.net — premium plumbing supplies from leading global manufacturers for projects in Kyrgyzstan and Kazakhstan.',
     navigation: 'Navigation',
     contacts: 'Contact',
     copyright: '© 2026 Suprize · suprize.net',
   },
   home: {
-    heroTitle: 'Premium plumbing for commercial and residential projects in Kyrgyzstan',
+    heroTitle: 'Premium plumbing for commercial and residential projects in Kyrgyzstan and Kazakhstan',
     heroSubtitle:
-      'Comprehensive supply of plumbing equipment from leading global manufacturers for hotels, restaurants, residential complexes, offices, and other facilities.',
+      'Comprehensive supply of plumbing equipment from leading global manufacturers for hotels, restaurants, residential complexes, offices, and other facilities in Kyrgyzstan and Kazakhstan.',
     whyUs: 'Why choose us',
     features: [
       {
@@ -37,7 +37,7 @@ export const en: Translations = {
       },
       {
         title: 'Leading European brands',
-        description: 'Hansgrohe, Grohe, Geberit, and other global plumbing leaders.',
+        description: 'Hansgrohe, Grohe, Duravit, TOTO, TECE, and other global plumbing leaders.',
       },
       {
         title: 'End-to-end supply',
@@ -73,7 +73,7 @@ export const en: Translations = {
   about: {
     title: 'About us',
     paragraphs: [
-      'Suprize (suprize.net) specializes in supplying plumbing equipment from leading global manufacturers across the Kyrgyz Republic.',
+      'Suprize (suprize.net) specializes in supplying plumbing equipment from leading global manufacturers for projects in Kyrgyzstan and Kazakhstan.',
       'We partner with architects, designers, construction companies, hotels, restaurants, and commercial organizations, providing comprehensive plumbing outfitting for every project.',
       'We offer only genuine products, professional consultation, and tailored solutions for each project.',
     ],
@@ -94,9 +94,11 @@ export const en: Translations = {
       'Reach out for consultation, equipment selection, or a commercial proposal.',
     phone: 'Phone',
     email: 'Email',
-    address: 'Address',
     hours: 'Business hours',
-    addressValue: '28/2 Suerkulova St, Bishkek',
+    countryKg: 'Kyrgyzstan',
+    addressKgValue: '28/2 Suerkulova St, Bishkek',
+    countryKz: 'Kazakhstan',
+    addressKzValue: '52/2 Abay Ave, Almaty',
     hoursValue: 'Mon–Fri: 9:00–18:00',
     mapPlaceholder: 'Map will be here',
     form: {
@@ -152,17 +154,51 @@ export const en: Translations = {
       name: 'Catalano',
       description: 'Italian manufacturer of high-quality modern bathroom ceramics.',
     },
+    {
+      name: 'Bette',
+      description:
+        'German manufacturer of premium steel bathtubs and shower trays with enamel coating.',
+    },
+    {
+      name: 'Cielo',
+      description: 'Italian brand of designer bathroom ceramics and furniture.',
+    },
+    {
+      name: 'Duravit',
+      description:
+        'Leading German manufacturer of bathroom ceramics, furniture, and wellness systems.',
+    },
+    {
+      name: 'Ideal Standard',
+      description:
+        'International brand of quality bathroom solutions for residential and commercial spaces.',
+    },
+    {
+      name: 'TECE',
+      description:
+        'German manufacturer of concealed installation systems, modules, and engineered plumbing.',
+    },
+    {
+      name: 'TOTO',
+      description:
+        'Japanese global leader in sanitary ware and innovative bathroom technologies.',
+    },
+    {
+      name: 'THG',
+      description:
+        'French manufacturer of luxury faucets and bathroom accessories of the highest class.',
+    },
   ],
   seo: {
     home: {
-      title: 'Suprize — Premium plumbing in Kyrgyzstan | suprize.net',
+      title: 'Suprize — Premium plumbing in Kyrgyzstan and Kazakhstan | suprize.net',
       description:
-        'suprize.net — comprehensive plumbing equipment supply from leading global manufacturers for hotels, restaurants, residential complexes, and commercial projects in Kyrgyzstan.',
+        'suprize.net — comprehensive plumbing equipment supply from leading global manufacturers for projects in Kyrgyzstan and Kazakhstan.',
     },
     about: {
       title: 'About — Suprize | suprize.net',
       description:
-        'Suprize delivers genuine plumbing from Hansgrohe, Grohe, Geberit, and other premium brands across the Kyrgyz Republic.',
+        'Suprize delivers genuine plumbing from Hansgrohe, Grohe, Duravit, TOTO, and other premium brands in Kyrgyzstan and Kazakhstan.',
     },
     contacts: {
       title: 'Contact — Suprize | suprize.net',

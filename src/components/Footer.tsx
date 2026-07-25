@@ -69,7 +69,19 @@ export function Footer() {
               <li>
                 <span className="flex items-start gap-2.5 text-sm text-secondary">
                   <MapPin size={16} className="mt-0.5 shrink-0 text-accent" />
-                  {t.contacts.addressValue}
+                  <span>
+                    <span className="block font-medium text-primary">{t.contacts.countryKg}</span>
+                    {t.contacts.addressKgValue}
+                  </span>
+                </span>
+              </li>
+              <li>
+                <span className="flex items-start gap-2.5 text-sm text-secondary">
+                  <MapPin size={16} className="mt-0.5 shrink-0 text-accent" />
+                  <span>
+                    <span className="block font-medium text-primary">{t.contacts.countryKz}</span>
+                    {t.contacts.addressKzValue}
+                  </span>
                 </span>
               </li>
             </ul>

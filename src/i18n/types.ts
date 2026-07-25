@@ -1,4 +1,4 @@
-export type Language = 'ky' | 'ru' | 'en'
+export type Language = 'ky' | 'ru' | 'en' | 'kk'
 
 export interface BrandTranslation {
   name: string
@@ -55,9 +55,11 @@ export interface Translations {
     subtitle: string
     phone: string
     email: string
-    address: string
     hours: string
-    addressValue: string
+    countryKg: string
+    addressKgValue: string
+    countryKz: string
+    addressKzValue: string
     hoursValue: string
     mapPlaceholder: string
     form: {

@@ -26,8 +26,13 @@ export function ContactsPage() {
     },
     {
       icon: MapPin,
-      label: t.contacts.address,
-      value: t.contacts.addressValue,
+      label: t.contacts.countryKg,
+      value: t.contacts.addressKgValue,
+    },
+    {
+      icon: MapPin,
+      label: t.contacts.countryKz,
+      value: t.contacts.addressKzValue,
     },
     {
       icon: Clock,
@@ -53,7 +58,7 @@ export function ContactsPage() {
             <ScrollReveal>
               <div className="space-y-6">
                 {contactItems.map((item) => (
-                  <div key={item.label} className="flex items-start gap-4">
+                  <div key={item.label + item.value} className="flex items-start gap-4">
                     <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-accent/8 text-accent">
                       <item.icon size={20} strokeWidth={1.75} />
                     </div>

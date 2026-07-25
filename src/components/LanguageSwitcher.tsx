@@ -24,7 +24,7 @@ export function LanguageSwitcher({ light = false }: LanguageSwitcherProps) {
             key={code}
             type="button"
             onClick={() => setLanguage(code)}
-            className={`rounded-md px-2 py-1 text-xs font-semibold tracking-wide transition-colors ${
+            className={`rounded-md px-1.5 py-1 text-[11px] font-semibold tracking-wide transition-colors sm:px-2 sm:text-xs ${
               isActive
                 ? light
                   ? 'bg-white text-primary shadow-sm'
